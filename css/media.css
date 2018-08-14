@@ -1,0 +1,64 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.step1 {
+    background-color: #de2b24;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    right: 34px;
+}
+.img_content {
+    padding-left: 28px;
+    padding-top: 30px;
+}
+.blog_pad {
+    padding-right: 44px;
+}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+.img_content p {
+    font-size: 14px;
+}
+.blog_content p {
+    font-size: 14px;
+}
+.blog_pad {
+    padding-right: 44px;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+.blog_pad {
+    padding-right: 44px;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.blog_pad {
+    padding-right: 44px;
+}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+.img_content p {
+    font-size: 16px;
+}
+.blog_content p {
+    font-size: 16px;
+}
+.blog_pad {
+    padding-right: 44px;
+}
+}
