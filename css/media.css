@@ -9,14 +9,28 @@
     height: 100px;
     position: absolute;
     top: 60px;
-    right: 34px;
+    right: 0px;
 }
 .img_content {
     padding-left: 28px;
     padding-top: 30px;
 }
 .blog_pad {
-    padding-right: 44px;
+    padding-right: 0px;
+}
+.image_wrap2 img {
+    width: 105%;
+    margin-left: 4%;
+}
+.step_2 {
+    background-color: #de2b24;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: absolute;
+    top: 72px;
+    left: -16px;
 }
 
 }
